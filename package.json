@@ -2,6 +2,10 @@
   "name": "simple-loading-animation",
   "version": "0.0.1",
   "description": "A library for inserting a simple HTML loading animation",
+  "keywords": [
+    "loading",
+    "Web Component"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/edwinvanderven/simple-loading-animation/issues"
   },
-  "homepage": "https://github.com/edwinvanderven/simple-loading-animation#readme"
+  "homepage": "https://github.com/edwinvanderven/simple-loading-animation#readme",
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
+  }
 }

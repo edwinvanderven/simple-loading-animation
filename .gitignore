@@ -103,5 +103,8 @@ dist
 # TernJS port file
 .tern-port
 
+# Settings for vscod
+.vscode
+
 # Directory used for testing the installation of the package
 test-directory
