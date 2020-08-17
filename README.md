@@ -59,6 +59,7 @@ Don't forget to hide or remove the element again once the loading is done.
 ### Notes
 
 For Angular projects you will need to add the custom scheme to support web components.
+
 - See [the Angular documentation](https://angular.io/api/core/CUSTOM_ELEMENTS_SCHEMA)
 
 ```js
