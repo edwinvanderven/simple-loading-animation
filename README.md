@@ -2,6 +2,8 @@
 
 This loading animation can be used in your HTML application.
 
+[![Published on npm](https://img.shields.io/npm/v/simple-loading-animation)](https://www.npmjs.com/package/simple-loading-animation)
+
 ## Installation
 
 Inside the root of your Node project run the following command.
