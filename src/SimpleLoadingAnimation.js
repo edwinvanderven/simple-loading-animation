@@ -95,19 +95,6 @@ export class SimpleLoadingAnimation extends SimpleLoadingAnimationMixin(LitEleme
   }
 
   render() {
-    return html`
-      ${this.active
-        ? html`<i
-            ><div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div
-          ></i>`
-        : ""}
-    `;
+    return html`<i><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></i>`;
   }
 }

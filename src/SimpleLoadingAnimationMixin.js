@@ -2,12 +2,11 @@ export const SimpleLoadingAnimationMixin = (SuperClass) =>
   class extends SuperClass {
     static get properties() {
       return {
-        active: { type: Boolean },
+        text: { type: String },
       };
     }
 
     constructor() {
       super();
-      this.active = false;
     }
   };
