@@ -1,6 +1,6 @@
 # Simple loading animation
 
-This loading animation can be used in your HTML application.
+These loading animations can be used in your HTML application.
 
 [![Published on npm](https://img.shields.io/npm/v/simple-loading-animation)](https://www.npmjs.com/package/simple-loading-animation)
 
@@ -14,34 +14,58 @@ npm i simple-loading-animation
 
 ## Usage
 
-### Import
+These web components can be combined with any HTML from your own project.
 
-In order to use this web component it needs to be imported in your project.
+In order to use them the animations need to be imported in your project.
 Inside your Javascript (or Typescript) file add the following line.
+
+```sh
+import 'simple-loading-animation/<name-of-the-loader>.js';
+```
+
+Now inside the HTML you can add the following element.
+
+```html
+<name-of-the-loader></name-of-the-loader>
+```
+
+### Examples
+
+#### Default loading animation
 
 ```sh
 import 'simple-loading-animation/simple-loader.js';
 ```
 
-### HTML
-
-Now inside the HTML you can add the following element.
-
 ```html
-<simple-loader active></simple-loader>
+<html>
+  ...
+  <simple-loader></simple-loader>
+  ...
+</html>
 ```
 
-#### Example
+#### Loading animation with text
 
-This web component can be combined with any HTML from your own project.
+The `text` property can be used to show a string to the user while the loading process is commencing.
+
+- Default value for this property is `Loading`.
+
+```sh
+import 'simple-loading-animation/simple-loader-with-text.js';
+```
 
 ```html
 <html>
   ...
-  <simple-loader class="loading-state" active></simple-loader>
+  <simple-loader-text text="Loading"></simple-loader-text>
   ...
 </html>
 ```
+
+#### CSS
+
+Using the following css, the loading animations will align inside the center of your screen.
 
 ```css
 .loading-state {
@@ -68,18 +92,10 @@ For Angular projects you will need to add the custom scheme to support web compo
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
-  declarations: [
-    ...
-  ],
-  imports: [
-    ...
-  ],
-  providers: [
-    ...
-  ],
-  bootstrap: [
-    ...
-  ],
+  declarations: [ ... ],
+  imports: [ ... ],
+  providers: [ ... ],
+  bootstrap: [ ... ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 ```
