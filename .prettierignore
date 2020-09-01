@@ -1,0 +1,22 @@
+# Ignore everything but a few: https://stackoverflow.com/a/987162/2725711
+# Ignore all
+*
+
+# Except for directories
+!*/
+
+# Except for specific file types
+!*.css
+!*.js
+!*.json
+!*.md
+!*.scss
+!*.ts
+!*.yaml
+!*.yml
+
+# Ignore editor specific folder
+.vscode
+
+# Ignore imported sources
+node_modules/
