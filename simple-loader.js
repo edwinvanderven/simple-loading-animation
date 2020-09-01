@@ -1,3 +1,3 @@
-import { SimpleLoadingAnimation } from "./src/SimpleLoadingAnimation.js";
+import { SimpleLoadingAnimation } from './src/SimpleLoadingAnimation.js';
 
-window.customElements.define("simple-loader", SimpleLoadingAnimation);
+window.customElements.define('simple-loader', SimpleLoadingAnimation);
