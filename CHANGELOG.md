@@ -9,6 +9,13 @@ All notable changes to this project will be documented in this file.
 <!-- ### Removed -->
 <!-- ### Fixed -->
 
+## [0.2.0] - 2020-08-30
+
+### Added
+
+A new loader which can be used by adding `simple-loader-with-text` as an import.
+See README.md for more information.
+
 ## [0.1.1] - 2020-08-21
 
 ### Changed
