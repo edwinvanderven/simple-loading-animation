@@ -39,9 +39,9 @@ import 'simple-loading-animation/simple-loader.js';
 
 ```html
 <html>
-  ...
-  <simple-loader></simple-loader>
-  ...
+    ...
+    <simple-loader></simple-loader>
+    ...
 </html>
 ```
 
@@ -49,7 +49,7 @@ import 'simple-loading-animation/simple-loader.js';
 
 The `text` property can be used to show a string to the user while the loading process is commencing.
 
-- Default value for this property is `Loading`.
+-   Default value for this property is `Loading`.
 
 ```sh
 import 'simple-loading-animation/simple-loader-with-text.js';
@@ -57,9 +57,9 @@ import 'simple-loading-animation/simple-loader-with-text.js';
 
 ```html
 <html>
-  ...
-  <simple-loader-text text="Loading"></simple-loader-text>
-  ...
+    ...
+    <simple-loader-text text="Loading"></simple-loader-text>
+    ...
 </html>
 ```
 
@@ -69,14 +69,14 @@ Using the following css, the loading animations will align inside the center of 
 
 ```css
 .loading-state {
-  position: absolute;
-  top: 40%;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  font-family: AvenirNextLTPro-Demi, Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  color: #4d4d4d;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: AvenirNextLTPro-Demi, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
 }
 ```
 
@@ -86,7 +86,7 @@ Don't forget to hide or remove the element again once the loading is done.
 
 For Angular projects you will need to add the custom scheme to support web components.
 
-- See [the Angular documentation](https://angular.io/api/core/CUSTOM_ELEMENTS_SCHEMA)
+-   See [the Angular documentation](https://angular.io/api/core/CUSTOM_ELEMENTS_SCHEMA)
 
 ```js
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
